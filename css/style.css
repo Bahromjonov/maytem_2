@@ -90,6 +90,7 @@ main {
     border-radius: 24px;
     background-color: var(--midnight-green);
     color:var(--White);
+    border: 1px solid white;
     transition: background-color 1s ease;
 }
 .btn-green:hover {
@@ -357,8 +358,7 @@ main {
     bottom:-110px;
     position: absolute;
 }
-.main__psat-btn {
-}
+
 .main__btn-pink {
     padding: 9px 33px 11px;
     background-color: var(--light-coral);
@@ -374,6 +374,7 @@ main {
 .footer {
     background-color: var(--dark-green);
     z-index: 1;
+    margin-bottom: 300px;
 }
 .footer__list {
     display: flex;
@@ -426,8 +427,6 @@ main {
 .footer__list-about:hover {
     color: var(--light-coral);
 }
-.footer__lane {
-}
 .footer__adress {
     font-size: 15px;
     font-weight: 600;
@@ -469,4 +468,149 @@ main {
     line-height: 25px;
     text-align: right;
     margin: 0;
+}
+
+* {
+    user-select: none;
+}
+
+/* About */
+.hero__ikki {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.hero-h2 {
+    left: 165px;
+    top: -241px;
+    max-width: 350px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+    
+}
+.hero-hr {
+    width: 50px;
+    height: 4px;
+    margin: 0;
+    background-color: var(--light-coral);
+}
+.hero-poro {
+    max-width: 730px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    position: relative;
+}
+.hero-img-ikki-red {
+    position: absolute;
+    right: -265px;
+    bottom: 40px;
+}
+/* Main */
+.main__about-color {
+    background-color: var(--police-blue);
+    padding-top: 140px;
+    
+}
+.main__about-directors {
+    max-width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 64px;
+    position: relative;
+}
+.main__directors-img {
+    position: absolute;
+    left: -370px;
+    top: -150px;
+}
+.main__meet {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin: 0;
+}
+.main__about {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: repeat( 1fr, 2);
+    gap: 30px;
+    padding-bottom: 140px;
+
+}
+.main_about-odamlar {
+    max-width: 350px;
+    height: 253px;
+    background-color: var(--sacramento-state-green);
+    padding: 32px 24px 56px 24px;
+    border-radius: 10px;
+    position: relative;
+}
+.about-nikita {
+    margin-left: 90px;
+    margin-bottom: 16px;
+}
+.main-marks {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    color: var(--rapture-blue);
+    margin: 0;
+    padding: 0;
+}
+.main-marks-poro {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.main-marks-pilus {
+    position: absolute;
+    right: 160px;
+    bottom: -27px;
+}
+.main__odamlar-img {
+    position: absolute;
+    right: -160px;
+    bottom: -150px;
+}
+.main__some-color {
+    background-color: var(--sacramento-state-green);
+}
+.main__some {
+    max-width: 920px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 120px;
+    margin-bottom: 50px;
+}
+.main__some-h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+margin: 0;
+}
+.main__yozuvlar {
+    padding-bottom: 100px;
+    position: relative;
+}
+.main__yozuvlar-img {
+    position: absolute;
+    top: -260px;
+    left: -200px;
+}
+.the-verge {
+    width: 165px;
+    height: 30px;
+}
+.the-verge:not(:last-child) {
+    margin-right: 60px;
 }
