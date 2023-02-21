@@ -44,7 +44,6 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-
 main {
     flex-grow: 1;
 }
@@ -613,4 +612,20 @@ margin: 0;
 }
 .the-verge:not(:last-child) {
     margin-right: 60px;
+}
+.ism-nomer {
+    margin-top: 40px;
+}
+.isim {
+    margin: 0;
+}
+.nomer {
+text-decoration: none;
+color: var(--White);
+}
+.nomer-span {
+    color: var(--White);
+}
+.nomer:hover {
+    opacity: 0.6;
 }
